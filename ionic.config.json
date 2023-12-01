@@ -1,0 +1,7 @@
+{
+  "name": "caminFront",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
