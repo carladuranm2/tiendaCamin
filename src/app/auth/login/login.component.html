@@ -1,0 +1,40 @@
+<div class="card flex flex-column align-items-center justify-content-evenly login">
+
+  <div class="labelWelcome">
+    Super tienda Camin
+  </div>
+  <!-- <div class="descWelcome">
+    Access your account securely by using your email and password
+  </div> -->
+  <div class="container-buttons">
+    <div class="input-container-psw">
+      <img class="icon-msg" src="../../../assets/sms.svg" />
+      <input type="email" class="custom-input-password" placeholder="Contraseña" [(ngModel)]="userEmail">
+    </div>
+    <div class="input-container-psw">
+      <img class="icon-msg" src="../../../assets/lock.svg" />
+      <input type="password" class="custom-input-password" placeholder="Correo" [(ngModel)]="password">
+      <img class="icon-eye" src="../../../assets/eye-slash.svg" />
+    </div>
+  </div>
+  <br><br>
+  <button class="inter-button" (click)="goHome()">Ingresar</button>
+  <div class="line-container">
+    <div class="line"></div>
+    <hr>
+    <p class="text-social">Ingrasa con</p>
+    <hr>
+    <div class="line"></div>
+  </div>
+
+  <div class="container-buttons">
+    <div class="input-container-psw">
+      <img class="icon-goog" src="../../../assets/Icon.svg" />
+      <button class="custom-input-social">Continuar con Google</button>
+    </div>
+    <div class="input-container-psw">
+      <img class="icon-applel" src="../../../assets/Icon (1).svg" />
+      <button class="custom-input-social">Continuar con Apple</button>
+    </div>
+  </div>
+</div>

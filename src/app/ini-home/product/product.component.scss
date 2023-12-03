@@ -1,0 +1,139 @@
+.card-product {
+  width: 175px;
+  height: 232px;
+  border-radius: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  width: 168px;
+  height: 175px;
+  margin: 10px;
+  background: var(--grocery-box-01, #F8F8F8);
+}
+
+.add-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--grocery-base-02, #FF6C3D);
+}
+
+
+.title-product {
+  color: var(--grocery-primary, #19253D);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.category-product {
+  color: var(--Font-01, #1A263F);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.carousel-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.item-container {
+  text-align: center;
+}
+
+.item-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.horizontal-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.price-add {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  margin-top: 0;
+  color: #FF5F2C;
+  leading-trim: both;
+  text-edge: cap;
+  justify-content: space-between;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.product-img {
+  text-align: center;
+}
+
+.text-prod {
+  margin: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.menu-filter {
+  display: flex;
+}
+
+.list-filter {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.number-filter {
+  margin-right: 10px;
+}
+
+.link-filter {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+  background: var(--grocery-box-01, #F8F8F8);
+  color: #333;
+  display: flex;
+  padding: 17px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.active {
+  color: #fff;
+  display: flex;
+  padding: 17px 20px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 50px;
+  background: var(--grocery-primary, #19253D);
+}
+
+.custombar2{
+  color: #fff;
+}

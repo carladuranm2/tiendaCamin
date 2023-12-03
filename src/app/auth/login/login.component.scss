@@ -1,0 +1,125 @@
+.labelWelcome {
+  color: var(--grocery-primary, #f31717);
+  leading-trim: both;
+  text-edge: cap;
+  font-feature-settings: 'clig'off, 'liga'off;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+
+.custom-input-password {
+  border-radius: 30px;
+  background: var(--grocery-box-01, #F8F8F8);
+  width: 366px;
+  height: 60px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  padding-left: 60px;
+}
+
+.custom-input-social {
+  border-radius: 30px;
+  background: var(--grocery-box-01, #F8F8F8);
+  width: 366px;
+  height: 60px;
+  border: 1px solid #ccc;
+}
+
+
+.container-buttons {
+  margin-top: 40px;
+}
+
+.icon-msg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  position: absolute;
+}
+
+.input-container-psw {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-msg {
+  margin-left: 30px;
+}
+
+.icon-eye {
+  margin-left: 75%;
+  position: absolute;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.line {
+  flex: 1;
+  background-color: black;
+  height: 1px;
+  opacity: 0.08;
+  background: #19253D;
+  width: 109px;
+}
+
+.icon-goog {
+  margin-left: 30px;
+  position: absolute;
+}
+
+.icon-applel {
+  margin-left: 30px;
+  position: absolute;
+}
+
+.text-social {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: var(--grocery-primary, #19253D);
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 19.2px */
+}
+
+.inter-button {
+  display: flex;
+  width: 366px;
+  height: 59px;
+  padding: 23px 133px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--grocery-primary, #f31717);
+  color: var(--grocery-white, #FFF);
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 133.333% */
+}
+
+.login{
+  overflow: auto;
+  margin-top: 20%;
+}

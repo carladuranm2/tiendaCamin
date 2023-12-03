@@ -1,0 +1,22 @@
+.inter-button {
+  display: flex;
+  width: 366px;
+  height: 59px;
+  padding: 23px 133px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--grocery-primary, #f31717);
+  color: var(--grocery-white, #FFF);
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 133.333% */
+}
